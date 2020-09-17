@@ -1,0 +1,32 @@
+anything can use a class, in the html <p class="...">
+in the css
+".[name of class]{
+
+}
+
+background-size: 300px;
+changes the width and height adjust automatically
+
+Java script types
+var x = 3; -------> integer
+var x = "30"; ----> string
+prompt('insert what you want it to say')
+if (x<10) {
+	alert('you can\'t drive');
+} 
+
+function add(first, second){
+	return first+second;
+}
+
+java events:
+click
+mouseenter
+mouseleave
+mousedown
+mouseup
+mousemove
+keydown
+keyup
+blur 
+focus

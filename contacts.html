@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<body>
+    <h2> Blah</h2>
+    <p>
+        X: <span id="x-value"></span>
+    </p>
+    <p>
+        Y: <span id="y-value"></span>
+    </p>
+    <script type="text/javascript">
+        window.addEventListener('mousemove', function(e) {
+        document.getElementById('x-value').textContent = e.x;
+        document.getElementById('y-value').textContent = e.y;
+        });
+
+    </script>
+</body>
+</html>

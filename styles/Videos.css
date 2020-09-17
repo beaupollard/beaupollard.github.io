@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: #F3EFE0;#C0C0C0;*/
+    background-color: whitesmoke;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: black;
+    background-image: url("../images/Website_Header2.png");
+    background-size: 100%;
+    background-position: center;
+    height: 250px;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: arial;
+    padding: 10px 15px 10px 5px;
+    margin: 0;
+}
+div a {
+    color: white;
+    background-color: black;
+}
+div .VidD {
+    position: relative;
+    display: block;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+}
+.vids {
+    position: absolute;
+    text-align: center;
+    height: 75vh;
+}
+.col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #69C9D0;
+    border: 5px;
+    box-shadow: 0px 10px 10px #C0C0C0;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+.flex-container {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.leftside, .rightside {
+    position: relative;
+    flex: 1;
+    min-height: 50px;
+    margin: 40px;
+}
+
+.rightside {
+    text-align: center;
+}
+
+.Space {
+    width: 100%;
+    height: 10vh;
+}
+
+footer {
+    clear: both;
+    color: white;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+footer li {
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
